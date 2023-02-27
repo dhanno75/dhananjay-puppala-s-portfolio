@@ -34,19 +34,19 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Connect with me!</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +91 88856 99900
+              +91 98869 92547
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
-              admin@company.io
+              pdhananjay774@gmail.com
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              JL 240, Kharagpur, Paschim Midnapur, West Bengal 721301, India
+              Bengaluru, Karnataka
             </div>
           </div>
         </div>
