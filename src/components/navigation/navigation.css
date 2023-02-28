@@ -101,3 +101,15 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .nav-icon {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-icon {
+    width: 24%;
+  }
+}

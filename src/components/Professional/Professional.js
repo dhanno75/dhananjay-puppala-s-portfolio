@@ -3,7 +3,7 @@ import "./professional.css";
 
 const Professional = () => {
   return (
-    <div className="pro">
+    <div className="pro" id="professional">
       <h1 className="pro-title">Experience</h1>
       <div className="pro-companies">
         <div className="pro-company">

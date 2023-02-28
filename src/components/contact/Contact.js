@@ -3,6 +3,8 @@ import "./contact.css";
 import Phone from "../../images/phone.png";
 import Email from "../../images/email.png";
 import Address from "../../images/address.png";
+import Github from "../../images/github.png";
+import Linkedin from "../../images/linkedin.png";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -27,6 +29,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+
+    formRef.current.reset();
   };
 
   return (
@@ -48,13 +52,36 @@ const Contact = () => {
               <img src={Address} alt="" className="c-icon" />
               Bengaluru, Karnataka
             </div>
+            <div className="line"></div>
+            <div className="socials">
+              <p className="social-name">Socials</p>
+              <div className="socials-wrapper">
+                <a
+                  className="socials-item"
+                  href="https://github.com/dhanno75"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="" className="socials-icon" />
+                </a>
+                <a
+                  className="socials-item"
+                  href="https://www.linkedin.com/in/dhananjay-p-4b164a19b/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Linkedin} alt="" className="socials-icon" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>Let's get in touch!</b> If you want to know about me or my work,
+            or if you just like to say hello, send me a messaage. I'd love to
+            hear from you.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" name="user_name" placeholder="Name" />

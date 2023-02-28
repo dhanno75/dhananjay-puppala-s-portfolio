@@ -16,10 +16,9 @@ const About = () => {
         <h2 className="a-name">About me</h2>
 
         <p className="a-desc">
-          My name is Dhananjay Puppala, I am a Full Stack Web Developer and Web
-          Designer. An Open Source enthusiast and a Computer Science student
-          from India. I love working on new and exciting technologies emerging
-          nowadays.
+          My name is Puppala Dhananjay, I am a Full Stack Web Developer and Web
+          Designer and Computer Science student from India. I love working on
+          new and exciting technologies emerging nowadays.
         </p>
         <p className="a-desc">
           I have good work experience as a MERN Stack Developer in startup(s)

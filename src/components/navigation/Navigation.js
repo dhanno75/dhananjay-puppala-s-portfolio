@@ -22,7 +22,7 @@ const Navigation = () => {
         <a href="#projects" className="nav-link">
           Projects
         </a>
-        <a href="#Professional" className="nav-link">
+        <a href="#professional" className="nav-link">
           Professional
         </a>
         <a href="#achievements" className="nav-link">

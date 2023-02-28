@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  background-color: rgb(245, 247, 247);
 }
 
 .p-title {
@@ -32,7 +33,7 @@
 
 .p-browser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
+  background-color: rgb(203, 202, 202);
   display: flex;
   align-items: center;
   position: sticky;

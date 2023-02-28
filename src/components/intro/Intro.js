@@ -8,7 +8,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">Dhananjay P</h1>
+          <h1 className="i-name">P Dhananjay</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
@@ -19,9 +19,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            I design and develop websites. I specialize in creating stylish,
+            modern websites, web services and online stores.
           </p>
         </div>
       </div>
