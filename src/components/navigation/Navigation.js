@@ -25,9 +25,9 @@ const Navigation = () => {
         <a href="#professional" className="nav-link">
           Professional
         </a>
-        <a href="#achievements" className="nav-link">
+        {/* <a href="#achievements" className="nav-link">
           Achievements
-        </a>
+        </a> */}
         <a href="#contact" className="nav-link">
           Contact
         </a>
