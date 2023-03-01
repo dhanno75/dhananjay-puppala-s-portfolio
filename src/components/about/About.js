@@ -16,15 +16,15 @@ const About = () => {
         <h2 className="a-name">About me</h2>
 
         <p className="a-desc">
-          My name is Puppala Dhananjay, I am a Full Stack Web Developer and Web
-          Designer and Computer Science student from India. I love working on
-          new and exciting technologies emerging nowadays.
+          My name is Puppala Dhananjay, I am aspiring Full Stack Web Developer
+          and Web Designer and Computer Science student from India. I love
+          working on new and exciting technologies emerging nowadays.
         </p>
-        <p className="a-desc">
+        {/* <p className="a-desc">
           I have good work experience as a MERN Stack Developer in startup(s)
           and UI/UX Designer where I was core member of the development team and
           done quite some contribution to open source as well.
-        </p>
+        </p> */}
       </div>
     </div>
   );
