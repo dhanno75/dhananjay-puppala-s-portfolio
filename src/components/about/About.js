@@ -2,6 +2,9 @@ import React from "react";
 import "./about.css";
 // import AboutImg from "../../images/about.jpeg";
 import AboutImg from "../../images/about-1.png";
+import Github from "../../images/github.png";
+import Linkedin from "../../images/linkedin.png";
+import Profile from "../../images/profile.png";
 
 const About = () => {
   return (
@@ -25,6 +28,33 @@ const About = () => {
           and UI/UX Designer where I was core member of the development team and
           done quite some contribution to open source as well.
         </p> */}
+        {/*<div className="line"></div>
+                  <p className="social-name">Socials</p> */}
+            <div className="socials">
+              <div className="socials-wrapper">
+                <a
+                  className="socials-item"
+                  href="https://github.com/dhanno75"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="" className="socials-icon" />
+                </a>
+                <a
+                  className="socials-item"
+                  href="https://www.linkedin.com/in/dhananjay-p-4b164a19b/" target="_blank" rel="noreferrer"  >
+                  <img src={Linkedin} alt="" className="socials-icon" />
+                </a>
+                <a
+                  className="socials-item"
+                  href="https://drive.google.com/file/d/117SPV5vbPZUSLFGkbilS5h05i1_g8zJl/view?usp=share_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Profile} alt="" className="socials-icon" />
+                </a>
+              </div>
+            </div>
       </div>
     </div>
   );

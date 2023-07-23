@@ -90,6 +90,7 @@
 
 .p-img {
   width: 100%;
+  background-size: cover;
   transition: all 10s ease;
 }
 
@@ -98,9 +99,35 @@
   z-index: 4;
 }
 
-/* .p-card:hover .p-img {
-  transform: translateY(-100%);
-} */
+.captions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.caps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.caps .icon {
+  font-size: 22px;
+  color: black;
+}
+
+.caps .frontback {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.about {
+  color: #fff;
+}
+
 
 @media screen and (max-width: 1050px) {
   .p {
