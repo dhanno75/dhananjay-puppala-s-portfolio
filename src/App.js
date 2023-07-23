@@ -4,10 +4,9 @@ import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
 import Navigation from "./components/navigation/Navigation";
 import Professional from "./components/Professional/Professional";
-// import Project from "./components/projects/Project";
+import Project from "./components/projects/Project";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
-import Project3 from "./components/projects/Project3";
 
 function App() {
   return (
@@ -16,8 +15,7 @@ function App() {
       <Intro />
       <About />
       <Skills />
-      {/* <Project /> */}
-      <Project3 />
+      <Project /> 
       <Professional />
       <Contact />
     </div>
