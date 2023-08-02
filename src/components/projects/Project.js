@@ -4,6 +4,7 @@ import Project0 from "../../images/p0.png";
 import Project1 from "../../images/p1.png";
 import Project2 from "../../images/p2.png";
 import Projec3 from "../../images/p3.jpeg";
+import Projec4 from "../../images/p4.png";
 import Carousel from "react-bootstrap/Carousel";
 import { MdOutlineComputer } from "react-icons/md";
 
@@ -38,11 +39,19 @@ const projects = [
   {
     id: "4",
     image: `${Projec3}`,
-    link: "https://web-code2-client.vercel.app/dashboard",
+    link: "https://web-code2-client.vercel.app/login",
     frontEnd: "https://github.com/dhanno75/WebCode2-client",
     backEnd: "https://github.com/dhanno75/WebCode2-server",
     about:
       "A CRM application, built with complete user authentication and user roles. Tech stack used is NodeJS, Express, MongoDB, Redux, React.",
+  },
+  {
+    id: "5",
+    image: `${Projec4}`,
+    link: "https://directions-dhananjay.netlify.app/",
+    frontEnd: "https://github.com/dhanno75/google-maps-direction",
+    about:
+      "A directions app to display directions, distance and duration using Google Maps API.",
   },
 ];
 
@@ -69,18 +78,23 @@ const Project = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <MdOutlineComputer className="icon"  />
+                      <MdOutlineComputer className="icon" />
                     </a>
                     <a
                       href={`${project.frontEnd}`}
                       target="_blank"
                       rel="noreferrer"
                       className="frontback"
-                      style={{color: project.id === '1' ? 'black' : 'white'}}
+                      style={{
+                        color:
+                          project.id === "1" || project.id === "5"
+                            ? "black"
+                            : "white",
+                      }}
                     >
                       Frontend
                     </a>
-                    {project.backEnd === "" ? (
+                    {project.id === "1" || project.id === "5" ? (
                       ""
                     ) : (
                       <a
@@ -96,7 +110,7 @@ const Project = () => {
                   </div>
                   <div
                     className="about"
-                    style={{color: project.id === '1' ? 'white' : 'black'}}
+                    style={{ color: project.id === "1" ? "white" : "black" }}
                   >
                     {project.about}
                   </div>
@@ -111,4 +125,3 @@ const Project = () => {
 };
 
 export default Project;
-

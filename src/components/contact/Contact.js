@@ -75,7 +75,7 @@ const Contact = () => {
                 </a>
                 <a
                   className="socials-item"
-                  href="https://drive.google.com/file/d/117SPV5vbPZUSLFGkbilS5h05i1_g8zJl/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1JD8UiwKbyTiz3RrDQn7_8Nwz0w9uvNlO/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                 >

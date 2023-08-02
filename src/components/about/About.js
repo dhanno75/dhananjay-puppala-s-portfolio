@@ -30,31 +30,34 @@ const About = () => {
         </p> */}
         {/*<div className="line"></div>
                   <p className="social-name">Socials</p> */}
-            <div className="socials">
-              <div className="socials-wrapper">
-                <a
-                  className="socials-item"
-                  href="https://github.com/dhanno75"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={Github} alt="" className="socials-icon" />
-                </a>
-                <a
-                  className="socials-item"
-                  href="https://www.linkedin.com/in/dhananjay-p-4b164a19b/" target="_blank" rel="noreferrer"  >
-                  <img src={Linkedin} alt="" className="socials-icon" />
-                </a>
-                <a
-                  className="socials-item"
-                  href="https://drive.google.com/file/d/117SPV5vbPZUSLFGkbilS5h05i1_g8zJl/view?usp=share_link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={Profile} alt="" className="socials-icon" />
-                </a>
-              </div>
-            </div>
+        <div className="socials">
+          <div className="socials-wrapper">
+            <a
+              className="socials-item"
+              href="https://github.com/dhanno75"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Github} alt="" className="socials-icon" />
+            </a>
+            <a
+              className="socials-item"
+              href="https://www.linkedin.com/in/dhananjay-p-4b164a19b/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Linkedin} alt="" className="socials-icon" />
+            </a>
+            <a
+              className="socials-item"
+              href="https://drive.google.com/file/d/1JD8UiwKbyTiz3RrDQn7_8Nwz0w9uvNlO/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Profile} alt="" className="socials-icon" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
