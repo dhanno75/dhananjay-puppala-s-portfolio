@@ -30,7 +30,7 @@ const projects = [
   {
     id: "3",
     image: `${Project2}`,
-    link: "https://tasks-app-frontent.vercel.app/about",
+    link: "https://tasks-app-frontent.vercel.app/",
     frontEnd: "https://github.com/dhanno75/tasks_app_frontent",
     backEnd: "https://github.com/dhanno75/tasks_app_backend",
     about:
