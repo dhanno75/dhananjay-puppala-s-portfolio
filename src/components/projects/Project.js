@@ -5,6 +5,7 @@ import Project1 from "../../images/p1.png";
 import Project2 from "../../images/p2.png";
 import Projec3 from "../../images/p3.jpeg";
 import Projec4 from "../../images/p4.png";
+import Projec5 from "../../images/p5.png";
 import Carousel from "react-bootstrap/Carousel";
 import { MdOutlineComputer } from "react-icons/md";
 
@@ -52,6 +53,15 @@ const projects = [
     frontEnd: "https://github.com/dhanno75/google-maps-direction",
     about:
       "A directions app to display directions, distance and duration using Google Maps API.",
+  },
+  {
+    id: "6",
+    image: `${Projec5}`,
+    link: "https://notes-dhananjay.netlify.app/",
+    frontEnd: "https://github.com/dhanno75/notes-frontend",
+    backEnd: "https://github.com/dhanno75/notes-backend",
+    about:
+      "Notes app is a web-based platform that allows users to create, edit and organize digital notes. This application provides a user-friendly interface for capturing ideas, tasks and important information.",
   },
 ];
 
